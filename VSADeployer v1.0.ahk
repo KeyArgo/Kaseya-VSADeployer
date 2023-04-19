@@ -88,10 +88,9 @@ ButtonInstallVSA:
 		{
 			return
 		}
-		;Update the path to the appropriate file
-		if FileExist("C:\Program Files (x86)\Kaseya\KSAAS123456789123456\KASetup.exe"){
+		if FileExist("C:\Program Files (x86)\Kaseya\KSAAS1234567891234567\KASetup.exe"){
 			MsgBox, VSA Agrent currently installed.  Uninstalling and reinstalling VSA Agent for %Practice%.
-			RunWait , "C:\Program Files (x86)\Kaseya\KSAAS123456789123456\KASetup.exe" /s /r /g KSAAS123456789123456 /l "%TEMP%\kasetup.log"
+			RunWait , "C:\Program Files (x86)\Kaseya\KSAAS1234567891234567\KASetup.exe" /s /r /g KSAAS1234567891234567 /l "%TEMP%\kasetup.log"
 		}
 		MsgBox Downloading VSA Package for %Practice% from https://vsa132.kaseya.net/mkDefault.asp?id=%Package%.  This may take a few moments.  We will let you know when we start the install.
 		UrlDownloadToFile,%URL1%,%F1%%Practice% VSA Setup%X1%
