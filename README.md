@@ -1,6 +1,6 @@
 # VSADeployer v1.0
 
-VSADeployer is an AutoHotkey utility script designed to manage, download, and install VSA software packages for different practices from a centralized location. The tool provides an intuitive graphical user interface to interact with the features it offers, making it an essential asset for administrators managing VSA deployments across multiple practices.
+VSADeployer is an AutoHotkey utility application designed to manage, download, and install VSA software packages for different practices from a centralized location. The tool provides an intuitive graphical user interface to interact with the features it offers, making it an essential asset for administrators managing VSA deployments across multiple practices.
 
 ## Features
 
